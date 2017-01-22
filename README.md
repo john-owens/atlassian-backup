@@ -13,3 +13,8 @@ python3 atlassian-run.py -i <instance> -u username -p password -l /tmp -b conflu
 python3 atlassian-run.py -i <instance> -u username -p password -l /tmp -b both
 #example: python3 atlassian-run.py -i blah.atlassian.net -u john -p smith -l /tmp -b jira
 ```
+
+## TODO
+* Add logger
+* Implement S3 uploading option
+* use location - need make sure win/nix paths handled. Currently just downloads to script execution location
