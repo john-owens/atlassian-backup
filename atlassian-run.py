@@ -13,8 +13,6 @@ instance = ''
 location = '/tmp' #default
 backupType = 'both' #jira, confluence or both
 #timezone = 'Australia/Melbourne' #maybe not needed
-#Function chooser
-#func_arg = {"list": apiIDFromList, "id": apiIDFromResponse, "deploymentId": getDeploymentId}
 
 try:
   opts, args = getopt.getopt(sys.argv[1:],"i:u:p:l:b:h",["instance=","username=","password=",'location=','backupType=',"help"])
