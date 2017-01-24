@@ -8,6 +8,7 @@ Based on the atlassian script for jira found here:https://bitbucket.org/atlassia
 ## To run
 Run the atlassian-run.py script. Recommend using python3, might work with 2.
 ``` shell
+pip3 install -r requirements.txt
 python3 atlassian-run.py -i <instance> -u username -p password -l /tmp -b jira
 python3 atlassian-run.py -i <instance> -u username -p password -l /tmp -b confluence
 python3 atlassian-run.py -i <instance> -u username -p password -l /tmp -b both
