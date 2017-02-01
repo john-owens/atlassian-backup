@@ -84,7 +84,7 @@ def getBackupFile(fileUrl,lSession,fileRename):
 #Do confluence specific stuff here
 def siteBackupConfluence(url, lSession):
     result = startBackup(url + backupUrl, lSession)
-    fileName = checkBackupProgress(url + progressUrl, session)
+    fileName = checkBackupProgress(url + progressUrl, lSession)
     print(fileName)
     if fileName is not None:
         #default filename is weird
